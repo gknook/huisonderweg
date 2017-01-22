@@ -49,3 +49,51 @@
 
 @include motion-ui-transitions;
 @include motion-ui-animations;
+
+#huis-icons{
+	margin: 1em 0em 0em 0em;
+	vertical-align: middle;
+}
+
+#huis-text{
+	margin: 0em;
+}
+
+#wifi img {
+	max-height: 40px;
+}
+
+h1, h2, h3, h4 {
+	color: $secondary-color;
+}
+
+h3 {
+	font-weight: 600;
+}
+
+hr {
+	color:$secondary-color;
+	height: 0px;
+	border: solid 1px;
+}
+
+p {
+	color: $primary-color;
+}
+
+.quote {
+	font-size: 1.3em;
+}
+
+.link {
+	color: $secondary-color;
+	font-weight: 700;
+}
+
+.prices {
+	height: 3em;
+}
+
+.newrow {
+	margin-top:$global-margin;
+}
