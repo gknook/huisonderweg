@@ -50,13 +50,13 @@
 @include motion-ui-transitions;
 @include motion-ui-animations;
 
-#huis-icons{
+#huis-icons img{
 	margin: 1em 0em 0em 0em;
 	vertical-align: middle;
 }
 
 #huis-text{
-	margin: 0em;
+	/*margin: 0em;*/
 }
 
 #wifi img {
@@ -83,6 +83,10 @@ p {
 
 .quote {
 	font-size: 1.3em;
+}
+
+.nostylelist{
+	list-style: none;
 }
 
 .link {
