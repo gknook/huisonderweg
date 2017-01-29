@@ -50,13 +50,15 @@
 @include motion-ui-transitions;
 @include motion-ui-animations;
 
+
 #huis-icons img{
 	margin: 1em 0em 0em 0em;
 	vertical-align: middle;
 }
 
-#huis-text{
-	/*margin: 0em;*/
+#huis-text p {
+	font-size: 0.8em;
+	margin-bottom: 0px;
 }
 
 #wifi img {
@@ -64,21 +66,28 @@
 }
 
 h1, h2, h3, h4 {
-	color: $secondary-color;
+	color: $primary-color;
 }
 
-h3 {
+h3, h4 {
 	font-weight: 600;
 }
 
 hr {
-	color:$secondary-color;
+	color:$dark-gray;
 	height: 0px;
 	border: solid 1px;
 }
+a {
+	color: $secondary-color;
+}
 
 p {
-	color: $primary-color;
+	color: $dark-gray;
+}
+
+.topnav .menu {
+	background-color: $white;
 }
 
 .quote {
@@ -87,6 +96,7 @@ p {
 
 .nostylelist{
 	list-style: none;
+	margin-left: 0;
 }
 
 .link {
@@ -94,10 +104,40 @@ p {
 	font-weight: 700;
 }
 
+.gallery img {
+	margin-top: 1em;
+}
+
+.gallery {
+	margin-bottom: 1em;
+}
+
 .prices {
 	height: 3em;
 }
 
+.routebeschrijving {
+	border-style:solid;
+	border-width:1px;
+	border-color:$dark-gray;
+	background-color:$light-gray;
+	padding:1em;
+	margin:1em;
+}
+
 .newrow {
 	margin-top:$global-margin;
+}
+
+.footer {
+	background-color: $dark-gray;
+	padding-top: 2em;
+}
+
+.footer hr{
+	color:$medium-gray;
+}
+
+.footer h1, .footer h2, .footer h3, .footer h4, .footer h5, .footer p, .footer a, .footer li {
+	color: $white;
 }

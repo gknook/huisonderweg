@@ -50,21 +50,21 @@ $global-font-size: 130%;
 $global-width: rem-calc(1200);
 $global-lineheight: 1.5;
 $foundation-palette: (
-  primary: #252228,
-  secondary: #2D0055,
+  primary: #C1AC4D,
+  secondary: #963333,
   success: #3adb76,
   warning: #ffae00,
   alert: #cc4b37,
 );
-$light-gray: #e6e6e6;
-$medium-gray: #cacaca;
-$dark-gray: #8a8a8a;
+$light-gray: #CFCFD1;
+$medium-gray: #85858C;
+$dark-gray: #2D2D34;
 $black: #0a0a0a;
-$white: #fefefe;
+$white: #F2F0EA;
 $button-color: #7743A5;
 $body-background: $white;
 $body-font-color: $black;
-$body-font-family: 'Optima', 'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif;
+$body-font-family: 'Gill sans', 'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif;
 $body-antialiased: true;
 $global-margin: 1rem;
 $global-padding: 1rem;
