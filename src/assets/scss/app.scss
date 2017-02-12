@@ -132,6 +132,7 @@ p {
 .footer {
 	background-color: $dark-gray;
 	padding-top: 2em;
+	margin-top: 5em;
 }
 
 .footer hr{
@@ -140,4 +141,8 @@ p {
 
 .footer h1, .footer h2, .footer h3, .footer h4, .footer h5, .footer p, .footer a, .footer li {
 	color: $white;
+}
+
+.header-image img{
+	width: 772px;
 }

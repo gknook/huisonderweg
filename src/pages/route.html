@@ -10,17 +10,31 @@
 </head>
 <body>
 
-  <div data-sticky-container class="topnav">
-    <ul class="menu" data-sticky data-options="marginTop:0;" style="width:100%">
-      <li><a href="/index.html">Home</a></li>
-      <li><a href="/huis.html">Het huis</a></li>
-      <li><a href="/roermond.html">Roermond</a></li>
-      <li class="active"><a href="/route.html">Route</a></li>
-      <li><a href="/en/route.html">Switch to English</a></li>
-    </ul>
+  <div class="top-bar">
+    <div class="top-bar-title">
+      <span data-responsive-toggle="responsive-menu" data-hide-for="medium">
+        <button class="menu-icon dark" type="button" data-toggle></button>
+      </span>
+      Huis<strong>Onderweg</strong>
+    </div>
+    <div id="responsive-menu">
+      <div class="top-bar-left">
+        <ul class="dropdown menu" data-dropdown-menu>
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="/huis.html">Het huis</a></li>
+          <li><a href="/roermond.html">Roermond</a></li>
+          <li><a href="/route.html">Route</a></li>
+        </ul>
+      </div>
+      <div class="top-bar-right">
+        <ul class="menu">
+          <li><a href="/en/index.html">Switch to English</a></li>
+        </ul>
+      </div>
+    </div>
   </div>
 
-  <div class="row text-center">
+  <div class="row text-center header-image">
     <img src="/assets/img/pieterpadroute.png">
     <div class="small-12 large-8 large-offset-2 columns">
     <span style="float:right;text-align:right;"><small>Copyright 2011 Google, Afbeeldingen Copyright 2011 Digital Globe</small></span></div>
